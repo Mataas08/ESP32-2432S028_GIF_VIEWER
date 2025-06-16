@@ -2,6 +2,8 @@
 
 This project converts animated GIFs into RGB565 frame arrays and displays them as smooth animations on a 320x240 TFT display using an ESP32 and the TFT_eSPI library.
 
+![test](https://github.com/user-attachments/assets/0c10b5d0-0c1f-40aa-a7dc-0cff323a5a5b)
+
 ---
 
 ## 📈 Features
