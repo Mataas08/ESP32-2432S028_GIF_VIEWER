@@ -29,11 +29,7 @@ This project converts animated GIFs into RGB565 frame arrays and displays them a
 2. The header contains all frames as a flattened array in RGB565 format
 3. The Arduino sketch loads the header and displays the frames on a TFT display using `millis()`-based timing
 
-   
-
-https://github.com/user-attachments/assets/20e098fe-4265-4fc6-afb9-0270f753ce04
-
-
+   ![test](https://github.com/user-attachments/assets/64816cc1-f912-48e0-9ad7-8a503efc22d9)
 
 ---
 
