@@ -7,9 +7,9 @@ This project converts animated GIFs into RGB565 frame arrays and displays them a
 ## 📈 Features
 
 - Convert any `.gif` animation to RGB565 format
-- Display animation at a fixed frame rate (e.g. 7 FPS)
+- Display animation
 - Uses `millis()` for non-blocking playback
-- Fully compatible with PROGMEM and ESP32
+- Fully compatible with ESP32-2432S028
 
 ---
 
@@ -18,24 +18,10 @@ This project converts animated GIFs into RGB565 frame arrays and displays them a
 - ESP32 development board (e.g. ESP32 DevKit v1)
 - 320x240 TFT display (ILI9341, ST7789, or compatible)
 - USB cable and Arduino IDE
-- Jumper wires or breadboard for connections
+- Jumper wires or breadboard for connections(optional)
 
 ---
 
-## 📂 Project Structure
-
-```
-.
-├── convert_gif.py        # Python script for GIF to .h conversion
-├── test.gif              # Example animated GIF
-├── test.h                # Generated header file (RGB565 data)
-├── display_gif.ino       # Arduino sketch to play the animation
-├── temp/                 # Temporary folder for PNG frames
-├── LICENSE               # MIT License file
-└── README.md             # This documentation
-```
-
----
 
 ## 📚 How It Works
 
@@ -104,21 +90,12 @@ Each frame is appended after the previous one, allowing fast indexed access on E
 
 ---
 
-## 🚧 Future Plans
-
-- Play real frame durations from GIF metadata
-- Add button support (pause, next, previous)
-- Load animation from SD card or SPIFFS
-- Optimize for PSRAM / memory-constrained boards
-
----
-
 ## 🔒 License (MIT)
 
 ```
 MIT License
 
-Copyright (c) 2025 [Your Name]
+Copyright (c) 2025 Mataas08
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -145,7 +122,7 @@ SOFTWARE.
 
 ## 😊 Author
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Mataas08
 
 Feel free to fork, modify, and contribute!
 
